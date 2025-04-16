@@ -9,6 +9,7 @@ import UpcomingEvents from './sections/UpcomingEvents';
 import FloatingNotes from './components/FloatingNotes';
 import SocialSidebar from './components/SocialSidebar';
 import Footer from './sections/Footer';
+import MemberAndQuoteSection from "./sections/MemberAndQuoteSection.jsx";
 function App() {
     useEffect(() => {
         AOS.init({
@@ -25,6 +26,7 @@ function App() {
             <YouTubePopup/>
             <SocialSidebar />
             <UpcomingEvents/>
+            <MemberAndQuoteSection />
             <Footer/>
         </div>
     );
