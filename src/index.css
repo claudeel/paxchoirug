@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+.animate-delay-500 { animation-delay: 500ms; }
+.animate-delay-1000 { animation-delay: 1000ms; }
+.animate-delay-1500 { animation-delay: 1500ms; }
+.animate-delay-2000 { animation-delay: 2000ms; }
+
+.cursor-blink {
+    animation: blink 0.8s step-end infinite;
+}
+
+html {
+    scroll-behavior: smooth;
+}
