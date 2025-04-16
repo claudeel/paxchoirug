@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://paxchoirug.github.io/paxchoirug",
+  "homepage": "https://github.com/claudeel/paxchoirug",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "postinstall": "flowbite-react patch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "vite"
   },
   "dependencies": {
